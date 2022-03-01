@@ -5,7 +5,8 @@ export const AppRouting = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/my-place/IDE" element={<IDE />}></Route>
+        <Route path={process.env.PUBLIC_URL + "/"} element={<>home</>}></Route>
+        <Route path={process.env.PUBLIC_URL + "/IDE"} element={<IDE />}></Route>
         <Route path="*" element={<>404</>}></Route>
       </Routes>
     </BrowserRouter>
