@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { IDE } from "../components/IDE-component";
 
 export const AppRouting = () => {
+  console.log(window.location.pathname);
   return (
     <BrowserRouter>
       <Routes>
