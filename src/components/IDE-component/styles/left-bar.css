@@ -1,0 +1,6 @@
+.left-bar {
+  display: flex;
+  background-color: rgb(51, 51, 51);
+  width: 60px;
+  color: rgb(204, 204, 204);
+}

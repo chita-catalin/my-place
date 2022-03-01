@@ -1,0 +1,5 @@
+.view-component {
+  background-color: rgb(30, 30, 30);
+  flex-grow: 1;
+  color: rgb(204, 204, 204);
+}
