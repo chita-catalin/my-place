@@ -5,9 +5,15 @@ export const AppRouting = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path={process.env.PUBLIC_URL + "/"} element={<>home</>}></Route>
-        <Route path={process.env.PUBLIC_URL + "/IDE"} element={<IDE />}></Route>
-        <Route path="*" element={<>404</>}></Route>
+        <Route
+          path={process.env.PUBLIC_URL + "/my-place/"}
+          element={<>home</>}
+        ></Route>
+        <Route
+          path={process.env.PUBLIC_URL + "/my-place/IDE"}
+          element={<IDE />}
+        ></Route>
+        <Route path="*" element={<>404 test</>}></Route>
       </Routes>
     </BrowserRouter>
   );
