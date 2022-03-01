@@ -5,7 +5,7 @@ export const AppRouting = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="my-place/IDE" element={<IDE />}></Route>
+        <Route path="/my-place/IDE" element={<IDE />}></Route>
         <Route path="*" element={<>404</>}></Route>
       </Routes>
     </BrowserRouter>
