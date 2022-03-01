@@ -1,13 +1,13 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { IDE } from "../components/IDE-component";
 
 export const AppRouting = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
-        <Route path="/IDE" element={<IDE />}></Route>
+        <Route path="my-place/IDE" element={<IDE />}></Route>
         <Route path="*" element={<>404</>}></Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
