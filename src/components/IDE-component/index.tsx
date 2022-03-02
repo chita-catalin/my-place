@@ -1,3 +1,4 @@
+import { BottomBar } from "./components/BottomBar";
 import { Explorer } from "./components/Explorer";
 import { LeftBar } from "./components/LeftBar";
 import { TopBar } from "./components/TopBar";
@@ -16,6 +17,7 @@ export const IDE = () => {
           <ViewComponent />
         </div>
       </div>
+      <BottomBar />
     </div>
   );
 };
