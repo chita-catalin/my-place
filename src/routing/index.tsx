@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { IDE } from "../components/IDE-component";
 
 export const AppRouting = () => {
-  console.log(window.location.pathname);
+  console.log("1.1.2");
   return (
     <BrowserRouter basename="/my-place">
       <Routes>
