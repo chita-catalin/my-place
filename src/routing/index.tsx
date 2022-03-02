@@ -1,15 +1,13 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { IDE } from "../components/IDE-component";
 
 export const AppRouting = () => {
-  console.log("1.1.2");
+  console.log("1.1.3");
   return (
     <BrowserRouter basename="/my-place">
-      <Routes>
-        <Route path="/#/" element={<>home</>}></Route>
-        <Route path="/#/IDE" element={<IDE />}></Route>
-        <Route path="*" element={<>404 test 1.1</>}></Route>
-      </Routes>
+      <Switch>
+        <Route path="/IDE" component={IDE} />
+      </Switch>
     </BrowserRouter>
   );
 };
