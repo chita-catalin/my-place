@@ -1,13 +1,13 @@
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { Switch, Route, HashRouter } from "react-router-dom";
 import { IDE } from "../components/IDE-component";
 
 export const AppRouting = () => {
-  console.log("1.1.3");
+  console.log("1.1.4");
   return (
-    <BrowserRouter basename="/my-place">
+    <HashRouter>
       <Switch>
-        <Route path="/IDE" component={IDE} />
+        <Route exact path="/IDE" component={IDE} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
