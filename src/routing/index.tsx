@@ -6,8 +6,8 @@ export const AppRouting = () => {
   return (
     <BrowserRouter basename="/my-place">
       <Routes>
-        <Route path="/" element={<>home</>}></Route>
-        <Route path="/IDE" element={<IDE />}></Route>
+        <Route path="/#/" element={<>home</>}></Route>
+        <Route path="/#/IDE" element={<IDE />}></Route>
         <Route path="*" element={<>404 test 1.1</>}></Route>
       </Routes>
     </BrowserRouter>
