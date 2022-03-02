@@ -4,11 +4,11 @@ import { IDE } from "../components/IDE-component";
 export const AppRouting = () => {
   console.log(window.location.pathname);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/my-place">
       <Routes>
-        <Route path="/my-place/" element={<>home</>}></Route>
-        <Route path="/my-place/IDE" element={<IDE />}></Route>
-        <Route path="*" element={<>404 test please work</>}></Route>
+        <Route path="/" element={<>home</>}></Route>
+        <Route path="/IDE" element={<IDE />}></Route>
+        <Route path="*" element={<>404 test 1.1</>}></Route>
       </Routes>
     </BrowserRouter>
   );
