@@ -1,4 +1,4 @@
-import { Switch, Route, HashRouter } from "react-router-dom";
+import { Switch, Route, HashRouter, Redirect } from "react-router-dom";
 import { IDE } from "../components/IDE-component";
 
 export const AppRouting = () => {
@@ -7,6 +7,7 @@ export const AppRouting = () => {
     <HashRouter>
       <Switch>
         <Route exact path="/IDE" component={IDE} />
+        <Redirect to="/IDE" />
       </Switch>
     </HashRouter>
   );

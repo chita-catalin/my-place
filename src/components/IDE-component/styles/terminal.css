@@ -1,0 +1,6 @@
+.terminal {
+  background-color: rgb(30, 30, 30);
+  color: rgb(204, 204, 204);
+  height: 150px;
+  border-top: 1px solid grey;
+}

@@ -16,6 +16,16 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px 0 20px;
+  border-bottom: 1px solid black;
+}
+
+.top-bar-submenu-item {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.top-bar-submenu-item:hover {
+  background-color: rgba(30, 30, 30);
 }
 
 nav ul {
@@ -24,10 +34,30 @@ nav ul {
   list-style: none;
 }
 
+.neo-brutalism-nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: #fff;
+}
+
 ul li {
   display: inline-block;
   background-color: rgb(60, 60, 60);
 }
+
+.neo-brutalism-ul {
+  background-color: white;
+  display: inline-block;
+  color: black;
+}
+
+.neo-brutalism-li {
+  display: inline-block;
+  background-color: white;
+  color:black;
+}
+
 
 nav a {
   display: block;
@@ -37,8 +67,20 @@ nav a {
   text-decoration: none;
 }
 
+.neo-brutalism-a{
+  display: block;
+  padding: 0 10px;
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 nav a:hover {
   background-color: #000000;
+}
+
+.neo-brutalism-a:hover{
+  background-color:lightgrey;
 }
 
 /* Hide Dropdowns by Default */
